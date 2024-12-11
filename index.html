@@ -13,29 +13,31 @@
         <header class="header">
 
             <div class="header__start">
-                <a class="header__logo-link" href="">
+                <a class="header__logo-link" href="" aria-label="Retourner à l'accueil">
                     <img class="header__logo-img" src="/assets/icones/festival-logo.webp" alt="Logo festival">
                 </a>
             </div>
 
             <div class="header__end">
-                <a class="header__shopping-link" href="">
+                <a class="header__shopping-link" href="" aria-label="Voir le panier">
                     <img class="header__shopping-img" src="/assets/icones/shopping-cart.svg" alt="Panier">
                 </a>
 
-                <button class="menu-btn">
+                <button class="menu-btn" aria-label="Accéder au Menu" aria-controls="mainNav" aria-expanded="false">
                     <span class="menu-bar"></span>
                 </button>
-                <nav class="header__nav menu" id="mainNav">
+                <nav class="header__nav menu" id="mainNav" aria-hidden="true">
                     <ul>
-                        <li class="menu__item"><a class="menu__link" href="">LE FESTIVAL</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">PROGRAMME</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">BILLETERIE</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">LES FILMS</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">NOS INVITÉS</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">RÉSERVER UN FILM</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">INFOS PRATIQUES</a></li>
-                        <li class="menu__item"><a class="menu__link" href="">CONTACT</a></li>
+                        <li class="menu__item"><a class="menu__link" href="/le-festival.html">LE FESTIVAL</a></li>
+                        <li class="menu__item"><a class="menu__link" href="/programme.html">PROGRAMME</a></li>
+                        <li class="menu__item"><a class="menu__link" href="/billeterie.html">BILLETERIE</a></li>
+                        <li class="menu__item"><a class="menu__link" href="/les-films.html">LES FILMS</a></li>
+                        <li class="menu__item"><a class="menu__link" href="nos-invites.html">NOS INVITÉS</a></li>
+                        <li class="menu__item"><a class="menu__link" href="reserver-un-film.html">RÉSERVER UN FILM</a>
+                        </li>
+                        <li class="menu__item"><a class="menu__link" href="infos-pratiques.html">INFOS PRATIQUES</a>
+                        </li>
+                        <li class="menu__item"><a class="menu__link" href="contact.html">CONTACT</a></li>
                     </ul>
                 </nav>
 
@@ -46,7 +48,7 @@
             <h1 class="hero__title">FESTIV'HALLOWEEN</h1>
             <p class="hero__date">29 AU 31 OCTOBRE</p>
             <h2 class="hero__slogan">PASSEZ UN AGRÉABLE MOMEMENT DE PEUR ET D'HORREUR</h2>
-            <img class="hero__chevron" src="/assets/icones/triple-chevron.webp" alt="Triple Chevron">
+            <img class="hero__chevron" src="/assets/icones/triple-chevron.webp" alt="Triple Chevron" aria-hidden="true">
         </div>
 
     </section>
