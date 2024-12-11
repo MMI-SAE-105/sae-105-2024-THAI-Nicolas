@@ -46,15 +46,18 @@
 
     <main class="main">
         <section class="section main__section">
-            <h1 class="main__title">LES FILMS DU FESTIVAL</h1>
-            <form class="search-form" action="/search" method="get" role="search">
-                <button class="form__search-button" type="submit">
-                    <img class="form__search-img" src="/assets/icones/search-icon.svg" alt="Loupe de recherche"
+            <header class="main-section__header">
+                <h1 class="main__title">LES FILMS DU FESTIVAL</h1>
+                <form class="search-form" action="/search" method="get" role="search">
+                    <button class="form__search-button" type="submit">
+                        <img class="form__search-img" src="/assets/icones/search-icon.svg" alt="Loupe de recherche"
+                            aria-label="Rechercher un film">
+                    </button>
+                    <input class="form__search-bar" type="text" placeholder="Rechercher un film..."
                         aria-label="Rechercher un film">
-                </button>
-                <input class="form__search-bar" type="text" placeholder="Rechercher un film..."
-                    aria-label="Rechercher un film">
-            </form>
+                </form>
+            </header>
+
             <div class="container__list-films">
 
                 <div class="film__item">
