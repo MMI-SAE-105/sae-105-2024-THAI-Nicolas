@@ -1,11 +1,16 @@
 @import url(/src/css/vendors/normalize.css);
 
-.hero-section {
+.section__hero {
     background-color: black;
     color: white;
 }
 
 .section__films-une {
+    background-color: black;
+    color: white;
+}
+
+.footer {
     background-color: black;
     color: white;
 }
