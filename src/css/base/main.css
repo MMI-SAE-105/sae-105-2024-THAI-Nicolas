@@ -1,0 +1,21 @@
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: var(--white);
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}

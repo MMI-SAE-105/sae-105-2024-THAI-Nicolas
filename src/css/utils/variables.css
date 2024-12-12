@@ -1,0 +1,41 @@
+:root {
+    /* ==============================
+   Colors
+   ============================== */
+    --black: #000000;
+    --orange: #CC5500;
+    --white: #F5F5F5;
+    --purple: #551A8B;
+
+
+    /* ==============================
+   Typography
+   ============================== */
+    --font-family-title: 'Cinzel', serif;
+    --font-family-formule: 'Creepster', cursive;
+    --font-family-text: 'Raleway', sans-serif;
+    --font-family-button: 'Raleway', sans-serif;
+    --font-family-title-page: 'Montserrat', sans-serif;
+    --font-family-footer: 'Cinzel', serif;
+    /* ==============================
+   Tailles
+   ============================== */
+    --font-size-xxs: 10 px;
+    --font-size-xs: 14 px;
+    --font-size-s: 20 px;
+    --font-size-m: 32 px;
+    --font-size-l: 36 px;
+    --font-size-xl: 44 px;
+    --font-size-footer: 16 px;
+    --font-size-hero: 16 px;
+    --font-size-button: 16 px;
+
+
+    /* ==============================
+   Espacements
+   ============================== */
+    --space-xs: 8px;
+    --space-s: 16px;
+    --space-m: 32px;
+    --space-l: 64px;
+}

@@ -1,4 +1,33 @@
-@import url(/src/css/vendors/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Creepster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+/* ==============================
+   Vendors (Bibliothèques externes)
+   ============================== */
+@import 'vendors/normalize.css';
+
+/* ==============================
+   Utils (Outils et fonctions utilitaires)
+   ============================== */
+@import 'utils/variables.css';
+/* ==============================
+   Base (Styles de base)
+   ============================== */
+@import 'base/main.css';
+/* ==============================
+   Layouts (Mise en page)
+   ============================== */
+@import 'layout/header.css';
+@import 'layout/footer.css';
+@import 'layout/hero.css';
+@import 'layout/section.css';
+/* ==============================
+   Components (Composants)
+   ============================== */
+@import 'components/menu.css';
 
 .section__hero {
     background-color: black;
