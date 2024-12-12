@@ -10,16 +10,78 @@
     height: 1000px;
 }
 
+.container__intro-festival {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: Raleway;
+    padding-bottom: 100px;
+}
+
+.intro-place__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.intro-place__title {
+    font-size: 22px;
+    width: 280px;
+    text-align: center;
+    margin-left: 130px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.intro-place__line {
+    position: absolute;
+    top: 1000px;
+    left: 91px;
+    width: 2px;
+    height: 227px;
+    background-color: black;
+    z-index: 1;
+}
+
+.intro-place__right {
+    margin-left: 100px;
+}
+
+.intro-place__desc {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.intro-reservation_title {
+    width: 300px;
+    margin-bottom: 22px;
+}
+
+.intro-reservation__question {
+    width: 350px;
+    font-size: 18px;
+}
+
+.intro-reservation__desc {
+    width: 250px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
 .section__films-une {
     background-color: var(--black);
     color: var(--white);
     padding: 0;
     padding-bottom: 70px;
-}
-
-.container__intro-festival {
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
 .section__header {
