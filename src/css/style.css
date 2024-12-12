@@ -28,18 +28,3 @@
    Components (Composants)
    ============================== */
 @import 'components/menu.css';
-
-.section__hero {
-    background-color: black;
-    color: white;
-}
-
-.section__films-une {
-    background-color: black;
-    color: white;
-}
-
-.footer {
-    background-color: black;
-    color: white;
-}
