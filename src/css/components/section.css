@@ -4,8 +4,10 @@
 }
 
 .section__hero {
-    background-color: var(--black);
+    background-image: url(/assets/images/hero-image.webp);
+    background-size: cover;
     color: var(--white);
+    height: 1000px;
 }
 
 .section__films-une {
