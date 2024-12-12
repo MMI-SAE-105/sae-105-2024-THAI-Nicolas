@@ -8,3 +8,11 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+p {
+    font-family: var(--font-family-text);
+}
+
+.title-partenaires {
+    margin-top: 80px;
+}

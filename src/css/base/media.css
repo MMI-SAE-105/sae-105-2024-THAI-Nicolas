@@ -1,0 +1,13 @@
+.partenaires__container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.partenaires__img {
+    width: 150px;
+    align-self: center;
+}

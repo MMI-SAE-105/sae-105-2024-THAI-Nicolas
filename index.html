@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festiv'Halloween</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body>
@@ -115,7 +116,7 @@
             </header>
 
             <div class="section section__categorie">
-                <h3 class="categorie_restriction">-12 ANS</h3>
+                <h3 class="categorie__restriction">-12 ANS</h3>
                 <div class="carrousel-films">
                     <a class="carrousel__link-film" href="">
                         <img class="carrousel__img-film" src="/assets/images/deadpool-cover.webp"
@@ -139,17 +140,17 @@
                 </div>
                 <div class="categorie__arrows">
                     <a class="categorie__left-arrow" href="">
-                        <img class="main-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
+                        <img class="prev-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
                     </a>
                     <a class="categorie__right-arrow" href="">
-                        <img class="main-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
+                        <img class="next-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
                     </a>
                 </div>
 
             </div>
 
             <div class="section section__categorie">
-                <h3 class="categorie_restriction">-16 ANS</h3>
+                <h3 class="categorie__restriction">-16 ANS</h3>
                 <div class="carrousel-films">
                     <a class="carrousel__link-film" href="">
                         <img class="carrousel__img-film" src="/assets/images/insidious-cover.webp"
@@ -174,17 +175,17 @@
 
                 <div class="categorie__arrows">
                     <a class="categorie__left-arrow" href="">
-                        <img class="main-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
+                        <img class="prev-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
                     </a>
                     <a class="categorie__right-arrow" href="">
-                        <img class="main-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
+                        <img class="next-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
                     </a>
                 </div>
 
             </div>
 
             <div class="section section__categorie">
-                <h3 class="categorie_restriction">-18 ANS</h3>
+                <h3 class="categorie__restriction">-18 ANS</h3>
                 <div class="carrousel-films">
                     <a class="carrousel__link-film" href="">
                         <img class="carrousel__img-film" src="/assets/images/terrifier-cover.webp"
@@ -208,75 +209,83 @@
                 </div>
                 <div class="categorie__arrows">
                     <a class="categorie__left-arrow" href="">
-                        <img class="main-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
+                        <img class="prev-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
                     </a>
                     <a class="categorie__right-arrow" href="">
-                        <img class="main-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
+                        <img class="next-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
                     </a>
                 </div>
 
             </div>
-
-            <a href="/programme.html">
-                <img src="/assets/icones/arrow.svg" alt="Flèche vers la droite">
-                Le programme
-            </a>
+            <div class="button-position">
+                <a class="button programme-btn" href="/programme.html">
+                    <img class="arrow-btn" src="/assets/icones/arrow.svg" alt="Flèche vers la droite">
+                    Le programme
+                </a>
+            </div>
         </section>
 
         <section class="section section_tarifs">
             <header class="section__header">
                 <h2 class="section__header-title">Les Tarifs</h2>
             </header>
-
             <div class="container__formule-home">
-                <div class="formule-home__header">
-                    <h3 class="formule-home__title">FORMULE PEUREUX</h3>
+
+
+                <div class="formule-home">
+                    <div class="formule-home__header">
+                        <h3 class="formule-home__title">FORMULE PEUREUX</h3>
+                    </div>
+                    <div class="formule-home__main">
+                        <h3 class="formule-home__price">10€/1 jour</h3>
+                        <p class="formule-home__desc">Parfait pour les trouillards</p>
+                        <a class="button formule-home__button" href="/billeterie.html">Achetez !</a>
+                    </div>
                 </div>
-                <div class="formule-home__main">
-                    <h3 class="formule-home__price">10€/1 jour</h3>
-                    <p class="formule-home__desc">Parfait pour les trouillards</p>
-                    <a class="formule-home__button" href="/billeterie.html">Achetez !</a>
+
+                <div class="formule-home">
+                    <div class="formule-home__header">
+                        <h3 class="formule-home__title">FORMULE FRISSON</h3>
+                    </div>
+                    <div class="formule-home__main">
+                        <h3 class="formule-home__price">18€/2 jours</h3>
+                        <p class="formule-home__desc">Les frissons seront garantis
+                            préparer votre couche !</p>
+                        <a class="button formule-home__button" href="/billeterie.html">Achetez !</a>
+                    </div>
+                </div>
+
+                <div class="formule-home">
+                    <div class="formule-home__header">
+                        <h3 class="formule-home__title">FORMULE COURAGEUX</h3>
+                    </div>
+                    <div class="formule-home__main">
+                        <h3 class="formule-home__price">25€/3 jours</h3>
+                        <p class="formule-home__desc">Là où l'on reconnait les vrais
+                            amateurs de films d'horreurs !</p>
+                        <a class="button formule-home__button" href="/billeterie.html">Achetez !</a>
+                    </div>
                 </div>
             </div>
-
-            <div class="container__formule-home">
-                <div class="formule-home__header">
-                    <h3 class="formule-home__title">FORMULE FRISSON</h3>
-                </div>
-                <div class="formule-home__main">
-                    <h3 class="formule-home__price">18€/2 jours</h3>
-                    <p class="formule-home__desc">Les frissons seront garantis
-                        préparer votre couche !</p>
-                    <a class="formule-home__button" href="/billeterie.html">Achetez !</a>
-                </div>
+            <div class="button-position">
+                <a class="button home-billeterie__button" href="/billeterie.html">Billeterie</a>
             </div>
 
-            <div class="container__formule-home">
-                <div class="formule-home__header">
-                    <h3 class="formule-home__title">FORMULE COURAGEUX</h3>
-                </div>
-                <div class="formule-home__main">
-                    <h3 class="formule-home__price">25€/3 jours</h3>
-                    <p class="formule-home__desc">Là où l'on reconnait les vrais
-                        amateurs de films d'horreurs !</p>
-                    <a class="formule-home__button" href="/billeterie.html">Achetez !</a>
-                </div>
-            </div>
-
-            <a class="home-billeterie__button" href="/billeterie.html">Billeterie</a>
         </section>
 
         <section class="section section__partenaires">
             <header class="section__header">
-                <h2 class="section__header-title">NOS PARTENAIRES</h2>
+                <h2 class="section__header-title title-partenaires">NOS PARTENAIRES</h2>
             </header>
-            <a class="partenaires__mmi-link"
-                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
-                <img class="partenaires__mmi-img" src="/assets/icones/logo-mmi.webp" alt="Logo MMI">
-            </a>
-            <a class="partenaires__iut-link" href="https://www.iut-nfc.univ-fcomte.fr/">
-                <img class="partenaires__iut-img" src="/assets/icones/logo-iut.webp" alt="Logo IUT">
-            </a>
+            <div class="partenaires__container">
+                <a class="partenaires__link"
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                    <img class="partenaires__img" src="/assets/icones/logo-mmi.webp" alt="Logo MMI">
+                </a>
+                <a class="partenaires__link" href="https://www.iut-nfc.univ-fcomte.fr/">
+                    <img class="partenaires__img" src="/assets/icones/logo-iut.webp" alt="Logo IUT">
+                </a>
+            </div>
         </section>
 
     </main>

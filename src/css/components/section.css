@@ -11,4 +11,24 @@
 .section__films-une {
     background-color: var(--black);
     color: var(--white);
+    padding: 0;
+    padding-bottom: 70px;
+}
+
+.container__intro-festival {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.section__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section__header-title {
+    font-family: var(--font-family-title);
+
 }

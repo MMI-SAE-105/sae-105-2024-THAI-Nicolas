@@ -1,13 +1,35 @@
 .menu {
     visibility: hidden;
-    display: flex;
     position: fixed;
     inset: 0;
     z-index: 1;
-    background-color: var(--black);
+    background-image: url(/assets/images/fond-menu-image.webp);
+    background-size: cover;
     color: var(--white);
+    bottom: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+}
+
+.menu__item {
+    font-family: var(--font-family-title);
+    font-size: 32px;
+    margin-left: 60px;
+    transition: padding-left 0.2s ease-in-out;
+}
+
+.menu__item:hover {
+    padding-left: 10px;
 }
 
 
@@ -23,6 +45,15 @@
     cursor: pointer;
 }
 
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+    ;
+}
+
+body.noscroll {
+    overflow: hidden;
+}
 
 .menu-btn__bar,
 .menu-btn__bar::before,
@@ -44,4 +75,17 @@
 
 .menu-btn__bar::after {
     top: 10px;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: var(--white);
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
 }

@@ -17,6 +17,7 @@
    Base (Styles de base)
    ============================== */
 @import 'base/main.css';
+@import 'base/media.css';
 /* ==============================
    Layouts (Mise en page)
    ============================== */
@@ -28,3 +29,7 @@
    ============================== */
 @import 'components/menu.css';
 @import 'components/section.css';
+@import 'components/boutons.css';
+@import 'components/formule.css';
+@import 'components/formuleaccueil.css';
+@import 'components/carrousel.css';

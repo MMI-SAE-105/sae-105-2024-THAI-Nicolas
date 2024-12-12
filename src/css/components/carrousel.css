@@ -1,0 +1,40 @@
+.section__categorie {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.categorie__restriction {
+    font-family: var(--font-family-title);
+    font-size: 32px;
+    text-align: center;
+}
+
+.carrousel-films {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    gap: 22px;
+    margin-bottom: 12px;
+}
+
+.carrousel__img-film {
+    width: 120px;
+}
+
+.prev-squelette {
+    position: relative;
+    top: 0;
+    left: 50px;
+    width: 80px;
+}
+
+.next-squelette {
+    position: relative;
+    top: 0;
+    left: 275px;
+    rotate: 180deg;
+    width: 80px;
+}
