@@ -23,8 +23,8 @@
 @import 'layout/header.css';
 @import 'layout/footer.css';
 @import 'layout/hero.css';
-@import 'layout/section.css';
 /* ==============================
    Components (Composants)
    ============================== */
 @import 'components/menu.css';
+@import 'components/section.css';

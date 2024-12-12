@@ -1,0 +1,14 @@
+.section {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.section__hero {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.section__films-une {
+    background-color: var(--black);
+    color: var(--white);
+}

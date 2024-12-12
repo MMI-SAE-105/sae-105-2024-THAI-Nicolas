@@ -1,3 +1,9 @@
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+    margin-top: 120px;
+}
+
 .footer__item {
     display: flex;
     justify-content: center;
@@ -29,7 +35,7 @@
 .footer__social-img {
     width: 20px;
     height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .footer__text {
@@ -39,5 +45,5 @@
     width: 185px;
     margin: 0 auto;
     font-weight: lighter;
-    margin-bottom: 60px;
+    padding-bottom: 40px
 }
