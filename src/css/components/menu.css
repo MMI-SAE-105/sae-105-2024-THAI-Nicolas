@@ -11,14 +11,22 @@
 }
 
 .menu-btn {
+    background-color: transparent;
     border: none;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .menu-btn__bar,
 .menu-btn__bar::before,
 .menu-btn__bar::after {
     content: "";
-    background: var(--black);
+    background: var(--white);
     height: 2px;
     width: 100%;
     position: absolute;
@@ -26,4 +34,12 @@
     left: 0;
     z-index: 10;
     transition: all 0.4s ease-in-out;
+}
+
+.menu-btn__bar::before {
+    top: -10px;
+}
+
+.menu-btn__bar::after {
+    top: 10px;
 }
