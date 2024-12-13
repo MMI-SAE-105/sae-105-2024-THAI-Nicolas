@@ -100,3 +100,57 @@ p {
     margin-bottom: 70px;
     margin-top: 40px;
 }
+
+.article__header-name {
+    text-align: center;
+    font-family: Montserrat;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.article__header-metier {
+    text-align: center;
+}
+
+.small {
+    font-size: 24px;
+}
+
+.section__desc {
+    font-size: 20px;
+    width: 300px;
+    margin-left: 23px;
+
+}
+
+.article__header-metier {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.liste__apparitions {
+    font-family: Raleway;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.article__info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+.article__header-info {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}

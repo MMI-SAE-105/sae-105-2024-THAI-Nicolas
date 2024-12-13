@@ -21,3 +21,8 @@
     gap: 30px;
     margin-right: 12px;
 }
+
+.header__black {
+    background-color: var(--black);
+    color: var(--white);
+}

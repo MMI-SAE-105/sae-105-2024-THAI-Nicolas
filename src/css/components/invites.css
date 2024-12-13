@@ -1,11 +1,16 @@
 .liste-invites__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 43px;
+    gap: 30px;
     margin-left: 35px;
     margin-right: 35px;
     margin: 0 auto;
     margin-top: 60px;
+    padding-left: 10px;
+}
+
+.article__invite {
+    width: 140px;
 }
 
 .article__invite-img {

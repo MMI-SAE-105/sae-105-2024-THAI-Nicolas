@@ -1,0 +1,4 @@
+.main__white {
+    background-color: var(--white);
+    color: var(--black);
+}

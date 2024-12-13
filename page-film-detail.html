@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header header__black">
 
         <div class="header__start">
             <a class="header__logo-link" href="/index.html" aria-label="Retourner à l'accueil">
@@ -46,23 +46,27 @@
 
         </div>
     </header>
-    <main class="main">
+    <main class="main main__white">
         <article class="article__film-page">
             <header class="article__film-header">
                 <h1 class="article__header-name">ANNABELLE</h1>
-                <img class="article__header-img" src="/assets/images/annabelle-cover.webp"
-                    alt="Cover du film Annabelle">
-                <p class="article__header-info">SORTIE : 2014</p>
-                <p class="article__header-info">RÉALISATEUR : John R.Leonetti</p>
-                <p class="article__header-info">LIMITE D'AGE : -12 ans</p>
-                <p class="article__header-info">PRODUCTION : Atomic Monster</p>
-                <p class="article__header-info">DURÉE : 1h38 min</p>
-                <p class="article__header-info">LANGUE : Français</p>
+                <div class="boite-main__image">
+                    <img class="article__header-img" src="/assets/images/annabelle-cover.webp"
+                        alt="Cover du film Annabelle">
+                </div>
+                <div class="article__info-container">
+                    <p class="article__header-info">SORTIE : 2014</p>
+                    <p class="article__header-info">RÉALISATEUR : John R.Leonetti</p>
+                    <p class="article__header-info">LIMITE D'AGE : -12 ans</p>
+                    <p class="article__header-info">PRODUCTION : Atomic Monster</p>
+                    <p class="article__header-info">DURÉE : 1h38 min</p>
+                    <p class="article__header-info">LANGUE : Français</p>
+                </div>
             </header>
 
             <section class="section section__synopsis">
                 <header class="section__header">
-                    <h2 class="section__title">SYNOPSIS</h2>
+                    <h2 class="main__title small">SYNOPSIS</h2>
                 </header>
                 <p class="section__desc">John Form est certain d'avoir déniché le cadeau de ses rêves pour sa femme Mia,
                     qui attend un enfant. Il s'agit d'une
@@ -80,16 +84,20 @@
 
             <section class="section section__bande-annonce">
                 <header class="section__header">
-                    <h2 class="section__title">BANDE ANNONCE</h2>
+                    <h2 class="main__title small">BANDE ANNONCE</h2>
                 </header>
-                <video class="video__bande-annonce" src="/assets/videos/annabelle-bande-annonce.mp4">
-                </video>
+                <div class="video__container">
+                    <video class="video__bande-annonce" controls>
+                        <source src="/assets/videos/annabelle-bande-annonce.mp4" type="video/mp4">
+                    </video>
+                    <p class="video__legende">Bande annonce de Annabelle</p>
+                </div>
 
             </section>
 
             <section class="section section__apparitions">
                 <header class="section__header">
-                    <h2 class="section__title">BIOGRAPHIE DU RÉALISATEUR</h2>
+                    <h2 class="main__title small">BIOGRAPHIE DU RÉALISATEUR</h2>
                 </header>
                 <p class="section__desc">John R. Leonetti, né le 4 juillet 1956 à Los Angeles, est un réalisateur et
                     directeur de la photographie américain. Issu
