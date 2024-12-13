@@ -1,0 +1,31 @@
+.contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.main-contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-contact__title {
+    font-size: 14px;
+    font-family: var(--font-family-text);
+    font-weight: 300;
+}
+
+.info-case {
+    background-color: var(--white);
+    color: var(--black);
+    width: 175px;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 16px;
+}
