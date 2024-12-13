@@ -1,4 +1,35 @@
 .team__container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    gap: 26px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team__left-img {
+    width: 120px;
+    height: 120px;
+}
+
+.team__right-name {
+    font-size: 16px;
+    font-family: var(--font-family-text);
+    margin: 0;
+}
+
+.team__right-job {
+    font-size: 10px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 5px;
+
+}
+
+.team__right-desc {
+    width: 200px;
+    font-size: 11px;
+    width: 180px;
+    line-height: normal;
+    margin: 0;
 }

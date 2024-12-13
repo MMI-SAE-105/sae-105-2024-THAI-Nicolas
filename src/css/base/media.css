@@ -25,3 +25,51 @@
     top: 1450px;
     margin-right: 10px;
 }
+
+.boite-main__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__image {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.attente__image {
+    width: 60px;
+    height: 80px;
+    object-fit: contain;
+    position: relative;
+}
+
+
+
+.img-hill {
+    bottom: 30px;
+    z-index: 0.5;
+}
+
+.img-annabelle {
+    top: 100px;
+    right: 30px;
+    z-index: 1;
+}
+
+.img-conjuring {
+    bottom: 90px;
+    left: 5px;
+    z-index: 1;
+}
+
+.img-limite {
+    bottom: 170px;
+    left: 70px;
+    width: 44px;
+}
+
+.img-insidious {
+    bottom: 80px;
+    left: 40px;
+}

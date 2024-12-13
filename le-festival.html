@@ -24,7 +24,9 @@
             </a>
 
             <button class="menu-btn" aria-label="Accéder au Menu" aria-controls="mainNav" aria-expanded="false">
-                <span class="menu-bar"></span>
+                <span class="menu-btn__bar"></span>
+                <span class="menu-btn__bar"></span>
+                <span class="menu-btn__bar"></span>
             </button>
             <nav class="header__nav menu" id="mainNav" aria-hidden="true">
                 <ul>
@@ -48,11 +50,13 @@
         <section class="section main__section">
             <header class="main-section__header">
                 <h1 class="main__title">LE FESTIVAL</h1>
-                <img class="main__image" src="/assets/images/image-festival.webp" alt="Image du festival">
-                <p class="main__intro">Bienvenue au Festiv'Halloween,
+                <div class="boite-main__image">
+                    <img class="main__image" src="/assets/images/image-festival.webp" alt="Image du festival">
+                </div>
+                <p class="main__text">Bienvenue au Festiv'Halloween,
                     l'événement incontournable pour les
                     amateurs de films d'horreur !</p>
-                <p class="main__intro">Que vous soyez amateur de frissons
+                <p class="main__text">Que vous soyez amateur de frissons
                     ou passionné d'épouvante, ce festival
                     est conçu pour vous faire trembler
                     de peur !</p>
@@ -63,32 +67,37 @@
             <header class="section__header">
                 <h2 class="section__header-title">A QUOI S'ATTENDRE ?</h2>
             </header>
-            <div class="attente__left">
-                <h3 class="attente__left-title">Films pour tous les âges</h3>
-                <p class="attente__text">Le Festiv'Halloween propose
-                    une large sélection de films
-                    d'horreur adaptée à tous les
-                    niveaux de tolérance.</p>
-                <p class="attente__text">
-                    Des séances pour jeunes
-                    spectateurs jusqu'aux classiques
-                    de l'horreur réservés aux
-                    plus courageux.
-                </p>
+            <div class="attente__container">
+                <div class="attente__left">
+                    <h3 class="attente__left-title">Films pour tous les âges</h3>
+                    <p class="attente__text">Le Festiv'Halloween propose
+                        une large sélection de films
+                        d'horreur adaptée à tous les
+                        niveaux de tolérance.</p>
+                    <p class="attente__text">
+                        Des séances pour jeunes
+                        spectateurs jusqu'aux classiques
+                        de l'horreur réservés aux
+                        plus courageux.
+                    </p>
+                </div>
+                <div class="attente__right">
+                    <img class="attente__image img-annabelle" src="/assets/images/annabelle-cover.webp"
+                        alt="Cover Annabelle" aria-hidden="true">
+                    <img class="attente__image img-hill" src="/assets/images/silent-hill-cover.webp"
+                        alt="Cover Silent Hill" aria-hidden="true">
+                    <img class="attente__image img-insidious" src="/assets/images/insidious-cover.webp"
+                        alt="Cover Insidious" aria-hidden="true">
+                    <img class="attente__image img-conjuring" src="/assets/images/conjuring-cover.webp"
+                        alt="Cover Conjuring" aria-hidden="true">
+                    <img class="attente__image img-limite" src="/assets/images/limite-age.webp" alt="Limites d'âges"
+                        aria-hidden="true">
+                </div>
             </div>
-            <div class="attente__right">
-                <img class="attente__image img-annabelle" src="/assets/images/annabelle-cover.webp"
-                    alt="Cover Annabelle" aria-hidden="true">
-                <img class="attente__image img-hill" src="/assets/images/silent-hill-cover.webp" alt="Cover Silent Hill"
-                    aria-hidden="true">
-                <img class="attente__image img-insidious" src="/assets/images/insidious-cover.webp"
-                    alt="Cover Insidious" aria-hidden="true">
-                <img class="attente__image img-conjuring" src="/assets/images/conjuring-cover.webp"
-                    alt="Cover Conjuring" aria-hidden="true">
-                <img class="attente__image img-limite" src="/assets/images/limite-age.webp" alt="Limites d'âges"
-                    aria-hidden="true">
+            <div class="button-position">
+
+                <a class="button programme-btn" href="/programme.html">Voir le programme</a>
             </div>
-            <a class="button attente-button" href="/programme.html">Voir le programme</a>
             <p class="attente__footer-text">Un moment inoubliable de partage, culture et
                 de diversité pour les cinéphiles horrifiques !</p>
         </section>
@@ -97,21 +106,22 @@
             <header class="section__header">
                 <h2 class="section__header-title">NOTRE HISTOIRE</h2>
             </header>
-            <p class="section__histoire-text">À l'origine, Festiv'Halloween était un
+            <p class="main__text">À l'origine, Festiv'Halloween était un
                 simple projet fictif créé par une jeune
                 étudiante en MMI à Montbéliard.</p>
-            <p class="section__histoire-text">Mais face à l'enthousiasme du public,
+            <p class="main__text">Mais face à l'enthousiasme du public,
                 nous avons décidé de le rendre réel.
                 Ce qui n'était qu'une maquette est
                 aujourd'hui un véritable festival de
                 films d'horreur, rassemblant chaque
                 année des passionnés à Montbéliard.</p>
-            <p class="section__histoire-text">Rendez-vous du 29 au 31 octobre
+            <p class="main__text">Rendez-vous du 29 au 31 octobre
                 au Cinéma Le Colisée à Montbéliard
                 pour un séjour effrayant, en plein
                 cœur de l'ambiance d'Halloween !</p>
-
-            <a class="section__histoire-button" href="/billeterie.html">Prendre son billet sans flipper</a>
+            <div class="button-position">
+                <a class="button histoire-btn" href="/billeterie.html">Prendre son billet sans flipper</a>
+            </div>
         </section>
 
         <section class="section section__team">

@@ -11,6 +11,8 @@
 }
 
 .container__intro-festival {
+    background-color: var(--white);
+    color: var(--black);
     padding-left: 25px;
     padding-right: 25px;
     display: flex;
@@ -94,5 +96,23 @@
 
 .section__header-title {
     font-family: var(--font-family-title);
+    font-size: 28px;
 
+}
+
+.section__tarifs {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.section__partenaires {
+    background-color: var(--white);
+    color: var(--black);
+    margin-bottom: 120px;
+}
+
+.attente__container {
+    display: flex;
+    justify-content: center;
+    height: 325px;
 }
