@@ -90,8 +90,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .section__header-title {
@@ -108,11 +106,15 @@
 .section__partenaires {
     background-color: var(--white);
     color: var(--black);
-    margin-bottom: 120px;
+    padding-bottom: 90px;
 }
 
 .attente__container {
     display: flex;
     justify-content: center;
     height: 325px;
+}
+
+.small-title {
+    font-size: 22px;
 }

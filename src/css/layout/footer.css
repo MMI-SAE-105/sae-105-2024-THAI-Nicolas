@@ -1,7 +1,11 @@
 .footer {
     background-color: var(--black);
     color: var(--white);
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.footer-home {
+    margin: 0;
 }
 
 .footer__item {
@@ -45,5 +49,6 @@
     width: 185px;
     margin: 0 auto;
     font-weight: lighter;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    line-height: 10px;
 }

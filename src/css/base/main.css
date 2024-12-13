@@ -66,6 +66,7 @@ p {
 
 .info__link {
     text-decoration: underline;
+    font-family: Raleway;
 }
 
 .main__title-autre {
@@ -138,6 +139,9 @@ p {
     margin-left: 30px;
 }
 
+.section__apparitions {
+    padding: 50px;
+}
 
 .article__info-container {
     display: flex;
@@ -153,4 +157,18 @@ p {
     font-size: 14px;
     font-weight: 700;
     margin: 0;
+}
+
+.layout__social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.listes-container {
+    padding-bottom: 50px;
+    list-style: disc;
 }

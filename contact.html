@@ -7,6 +7,10 @@
     <title>Contact</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -74,7 +78,7 @@
             </div>
             <section class="section section__social-media">
                 <header class="section__header">
-                    <h2 class="section__header-title">NOS RÉSEAUX SOCIAUX</h2>
+                    <h2 class="section__header-title small-title">NOS RÉSEAUX SOCIAUX</h2>
                 </header>
                 <div class="layout__social-media">
                     <a class="social-media__link" href="https://www.instagram.com/mmi_montbeliard/" target="_blank">
@@ -99,20 +103,25 @@
                     <h2 class="section__header-title">FORMULAIRE</h2>
                 </header>
 
-                <form action="/" method="post">
-                    <label for="nom">Nom :</label>
-                    <input type="text" id="nom" name="nom">
+                <form class="formulaire__contact" action="/" method="post">
+                    <div class="case__formulaire">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom...">
+                    </div>
+                    <div class="case__formulaire">
+                        <label for="nom">E-mail :</label>
+                        <input type="text" id="email" name="email" placeholder="Email...">
+                    </div>
+                    <div class="case__formulaire">
+                        <label for="nom">Objet :</label>
+                        <input type="text" id="objet" name="objet" placeholder="Sujet...">
+                    </div>
+                    <div class="case__formulaire">
+                        <label for="nom">Message :</label>
+                        <textarea name="message" id="message" placeholder="Ecrivez-ici votre message..."></textarea>
+                    </div>
 
-                    <label for="nom">E-mail :</label>
-                    <input type="text" id="email" name="email">
-
-                    <label for="nom">Objet :</label>
-                    <input type="text" id="objet" name="objet">
-
-                    <label for="nom">Message :</label>
-                    <textarea name="message" id="message"></textarea>
-
-                    <input type="submit" value="Envoyer">
+                    <input class="envoyer-btn" type="submit" value="Envoyer">
                 </form>
 
             </section>

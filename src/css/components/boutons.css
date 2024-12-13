@@ -24,6 +24,10 @@
     opacity: 0.8;
 }
 
+.button:active {
+    opacity: 0.6;
+}
+
 
 
 .intro-place__button {
@@ -92,4 +96,14 @@
     height: 30px;
     border-radius: 32px;
     margin-bottom: 50px;
+}
+
+.envoyer-btn {
+    background: var(--white);
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    color: var(--black);
 }
