@@ -77,3 +77,11 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.formule__button {
+    background-color: var(--purple);
+    width: 250px;
+    height: 30px;
+    border-radius: 32px;
+    margin-bottom: 50px;
+}
