@@ -58,3 +58,45 @@ p {
 .info_text {
     font-size: 20px;
 }
+
+.section__infos {
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.info__link {
+    text-decoration: underline;
+}
+
+.main__title-autre {
+    font-size: 20px;
+    font-family: Raleway;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reservation__text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.reservation__item {
+    font-size: 20px;
+    font-family: Raleway;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.reservation__conditions-infos {
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 300;
+}
+
+.panier__title {
+    text-align: center;
+    font-family: var(--font-family-text);
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
