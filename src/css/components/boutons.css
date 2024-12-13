@@ -44,6 +44,13 @@
     padding: 10px 12px;
     border-radius: 4px;
     font-size: 10px;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+.intro-reservation__button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: solid 1px var(--black);
 }
 
 .programme-btn {
