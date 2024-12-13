@@ -24,7 +24,9 @@
             </a>
 
             <button class="menu-btn" aria-label="Accéder au Menu" aria-controls="mainNav" aria-expanded="false">
-                <span class="menu-bar"></span>
+                <span class="menu-btn__bar"></span>
+                <span class="menu-btn__bar"></span>
+                <span class="menu-btn__bar"></span>
             </button>
             <nav class="header__nav menu" id="mainNav" aria-hidden="true">
                 <ul>
@@ -54,8 +56,10 @@
                         <img class="form__search-img" src="/assets/icones/search-icon.svg" alt="Loupe de recherche"
                             aria-label="Rechercher un film">
                     </button>
-                    <input class="form__search-bar" type="text" placeholder="Rechercher un film..."
-                        aria-label="Rechercher un film">
+                    <div class="form__position-center">
+                        <input class="form__search-bar" type="text" placeholder="Rechercher un film..."
+                            aria-label="Rechercher un film">
+                    </div>
                 </form>
             </header>
 
@@ -117,38 +121,41 @@
                     </a>
                 </div>
 
-                <div class="film__item"></div>
-                <a class="film__link" href="/page-film-detail.html">
-                    <img class="film__img" src="/assets/images/terrifier-chapitre3-cover.webp" alt="Cover Terrifier 3"
-                        aria-label="Accéder au film Terrifier 3">
-                </a>
-            </div>
+                <div class="film__item">
+                    <a class="film__link" href="/page-film-detail.html">
+                        <img class="film__img" src="/assets/images/terrifier-chapitre3-cover.webp"
+                            alt="Cover Terrifier 3" aria-label="Accéder au film Terrifier 3">
+                    </a>
+                </div>
 
-            <div class="film__item">
-                <a class="film__link" href="/page-film-detail.html">
-                    <img class="film__img" src="/assets/images/poltergeist-cover.webp" alt="Cover Poltergeist"
-                        aria-label="Accéder au film Poltergeist">
-                </a>
-            </div>
 
-            <div class="film__item">
-                <a class="film__link" href="/page-film-detail.html">
-                    <img class="film__img" src="/assets/images/gremlins-cover.webp" alt="Cover Gremlins"
-                        aria-label="Accéder au film Gremlins">
-                </a>
-            </div>
+                <div class="film__item">
+                    <a class="film__link" href="/page-film-detail.html">
+                        <img class="film__img" src="/assets/images/poltergeist-cover.webp" alt="Cover Poltergeist"
+                            aria-label="Accéder au film Poltergeist">
+                    </a>
+                </div>
 
-            <div class="film__item">
-                <a class="film__link" href="/page-film-detail.html">
-                    <img class="film__img" src="/assets/images/saw-cover.webp" alt="Cover Saw"
-                        aria-label="Accéder au film Saw">
-                </a>
-            </div>
+                <div class="film__item">
+                    <a class="film__link" href="/page-film-detail.html">
+                        <img class="film__img" src="/assets/images/gremlins-cover.webp" alt="Cover Gremlins"
+                            aria-label="Accéder au film Gremlins">
+                    </a>
+                </div>
 
-            <a class="film__change-page" href="">1</a>
-            <a class="film__change-page" href="">2</a>
-            <span>...</span>
-            <a class="film__change-page" href="">4</a>
+                <div class="film__item">
+                    <a class="film__link" href="/page-film-detail.html">
+                        <img class="film__img" src="/assets/images/saw-cover.webp" alt="Cover Saw"
+                            aria-label="Accéder au film Saw">
+                    </a>
+                </div>
+            </div>
+            <div class="nombre-center">
+                <a class="film__change-page" href="">1</a>
+                <a class="film__change-page" href="">2</a>
+                <span class="film__change-page">...</span>
+                <a class="film__change-page" href="">4</a>
+            </div>
 
             <p class="liste-films__legaltext">
                 Cette galerie répertorie tous les
