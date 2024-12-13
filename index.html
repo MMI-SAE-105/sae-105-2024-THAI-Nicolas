@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festiv'Halloween</title>
     <link rel="stylesheet" href="/src/css/style.css">
-    <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/components/carrousel.js"></script>
+    <script type="module" src="/src/js/components/carrousel2.js"></script>
+    <script type="module" src="/src/js/components/carrousel3.js"></script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
@@ -123,103 +126,150 @@
 
             <div class="section section__categorie">
                 <h3 class="categorie__restriction">-12 ANS</h3>
+
                 <div class="carrousel-films">
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/deadpool-cover.webp"
-                            alt="Cover Deadpool vs Wolverine">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/gremlins-cover.webp" alt="Cover Gremlins">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/les-dents-de-la-mer-cover.webp"
-                            alt="Cover Les dents de la mer">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/monstre-house-cover.webp"
-                            alt="Cover Monster House">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/poltergeist-cover.webp"
-                            alt="Cover Poltergeist">
-                    </a>
+
+                    <div class="carrousel__item">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/deadpool-cover.webp"
+                                alt="Cover Deadpool vs Wolverine">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/gremlins-cover.webp"
+                                alt="Cover Gremlins">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/les-dents-de-la-mer-cover.webp"
+                                alt="Cover Les dents de la mer">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/monstre-house-cover.webp"
+                                alt="Cover Monster House">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/poltergeist-cover.webp"
+                                alt="Cover Poltergeist">
+                        </a>
+                    </div>
+
                 </div>
+
                 <div class="categorie__arrows">
-                    <a class="categorie__left-arrow" href="">
+                    <button class="categorie__left-arrow" aria-label="Voir le film suivant">
                         <img class="prev-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
-                    </a>
-                    <a class="categorie__right-arrow" href="">
+                    </button>
+                    <button class="categorie__right-arrow" aria-label="Voir le film précédent">
                         <img class="next-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
-                    </a>
+                    </button>
                 </div>
 
             </div>
 
             <div class="section section__categorie">
                 <h3 class="categorie__restriction">-16 ANS</h3>
-                <div class="carrousel-films">
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/insidious-cover.webp"
-                            alt="Cover Insidious">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/ca-chapitre2-cover.webp" alt="Cover ça 2">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/conjuring-cover.webp"
-                            alt="Cover Conjuring">
-                    </a>
-                    <a class="carrousel__link-film" href="/page-film-detail.html">
-                        <img class="carrousel__img-film" src="/assets/images/annabelle-cover.webp"
-                            alt="Cover Annabelle">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/sans-un-bruit-cover.webp"
-                            alt="Cover Sans un bruit">
-                    </a>
+
+                <div class="carrousel-films2">
+                    <div class="carrousel__item2">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/insidious-cover.webp"
+                                alt="Cover Insidious">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item2">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/ca-chapitre2-cover.webp"
+                                alt="Cover ça 2">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item2">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/conjuring-cover.webp"
+                                alt="Cover Conjuring">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item2">
+                        <a class="carrousel__link-film" href="/page-film-detail.html">
+                            <img class="carrousel__img-film" src="/assets/images/annabelle-cover.webp"
+                                alt="Cover Annabelle">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item2">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/sans-un-bruit-cover.webp"
+                                alt="Cover Sans un bruit">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="categorie__arrows">
-                    <a class="categorie__left-arrow" href="">
+                    <button class="categorie__left-arrow2">
                         <img class="prev-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
-                    </a>
-                    <a class="categorie__right-arrow" href="">
+                    </button>
+                    <button class="categorie__right-arrow2">
                         <img class="next-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
-                    </a>
+                    </button>
                 </div>
 
             </div>
 
             <div class="section section__categorie">
                 <h3 class="categorie__restriction">-18 ANS</h3>
-                <div class="carrousel-films">
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/terrifier-cover.webp"
-                            alt="Cover Terrifier 1">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/terrifier-chapitre3-cover.webp"
-                            alt="Cover Terrifier 3">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/saw-cover.webp" alt="Cover Saw">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/human-centipede-chapitre2-cover.webp"
-                            alt="Cover The Human Centipede 2">
-                    </a>
-                    <a class="carrousel__link-film" href="">
-                        <img class="carrousel__img-film" src="/assets/images/serbian-film-cover.webp"
-                            alt="Cover a Serbian Film">
-                    </a>
+                <div class="carrousel-films3">
+
+                    <div class="carrousel__item3">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/terrifier-cover.webp"
+                                alt="Cover Terrifier 1">
+                        </a>
+                    </div>
+                    <div class="carrousel__item3">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/terrifier-chapitre3-cover.webp"
+                                alt="Cover Terrifier 3">
+                        </a>
+                    </div>
+                    <div class="carrousel__item3">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/saw-cover.webp" alt="Cover Saw">
+                        </a>
+                    </div>
+                    <div class="carrousel__item3">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/human-centipede-chapitre2-cover.webp"
+                                alt="Cover The Human Centipede 2">
+                        </a>
+                    </div>
+
+                    <div class="carrousel__item3">
+                        <a class="carrousel__link-film" href="">
+                            <img class="carrousel__img-film" src="/assets/images/serbian-film-cover.webp"
+                                alt="Cover a Serbian Film">
+                        </a>
+                    </div>
                 </div>
                 <div class="categorie__arrows">
-                    <a class="categorie__left-arrow" href="">
+                    <button class="categorie__left-arrow3" href="">
                         <img class="prev-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la gauche">
-                    </a>
-                    <a class="categorie__right-arrow" href="">
+                    </button>
+                    <button class="categorie__right-arrow3" href="">
                         <img class="next-squelette" src="/assets/icones/skeleton-finger.webp" alt="Main vers la droite">
-                    </a>
+                    </button>
                 </div>
 
             </div>

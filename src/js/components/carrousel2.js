@@ -1,10 +1,10 @@
-const carousel = document.querySelector(".carrousel-films");
-const prevButton = document.querySelector(".categorie__left-arrow");
-const nextButton = document.querySelector(".categorie__right-arrow");
+const carousel = document.querySelector(".carrousel-films2");
+const prevButton = document.querySelector(".categorie__left-arrow2");
+const nextButton = document.querySelector(".categorie__right-arrow2");
 
 if (carousel) {
-    const premierItem = document.querySelector(".carrousel__item");
-    const items = document.querySelectorAll(".carrousel__item");
+    const premierItem = document.querySelector(".carrousel__item2");
+    const items = document.querySelectorAll(".carrousel__item2");
     const scrollAmount = premierItem.clientWidth / 2;
     const startIndex = 2;
 

@@ -10,15 +10,39 @@
 }
 
 .carrousel-films {
-    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
     gap: 22px;
+    overflow-x: scroll;
     margin-bottom: 12px;
     scroll-snap-type: x mandatory;
+}
+
+.carrousel-films2 {
+    display: flex;
+    gap: 22px;
+    overflow-x: scroll;
+    margin-bottom: 12px;
+    scroll-snap-type: x mandatory;
+}
+
+.carrousel-films3 {
+    display: flex;
+    gap: 22px;
+    overflow-x: scroll;
+    margin-bottom: 12px;
+    scroll-snap-type: x mandatory;
+}
+
+.carrousel__item {
+    scroll-snap-align: center;
+}
+
+.carrousel__item2 {
+    scroll-snap-align: center;
+}
+
+.carrousel__item3 {
+    scroll-snap-align: center;
 }
 
 .carrousel__img-film {
@@ -30,6 +54,24 @@
     top: 0;
     left: 35px;
     width: 60px;
+}
+
+.categorie__left-arrow,
+.categorie__right-arrow {
+    border: none;
+    background-color: transparent;
+}
+
+.categorie__left-arrow2,
+.categorie__right-arrow2 {
+    border: none;
+    background-color: transparent;
+}
+
+.categorie__left-arrow3,
+.categorie__right-arrow3 {
+    border: none;
+    background-color: transparent;
 }
 
 .next-squelette {
