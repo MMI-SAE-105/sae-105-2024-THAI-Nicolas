@@ -7,6 +7,7 @@
     <title>Informations pratiques</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/components/faq.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
@@ -107,57 +108,47 @@
 
         <section class="section section__infos">
             <h2 class="main__title">FAQ</h2>
-            <ul class="liste__faq">
+            <ul class="liste__faq accordeon">
                 <li class="faq__item">
-                    <a class="chevron__link" href="">
-                        <img class="chevron__btn" src="/assets/icones/chevron.svg" alt="" aria-expanded="false"
-                            aria-label="Lire la réponse">
-                    </a>
-                    <p class="faq__question">Peut-on venir déguisé ?</p>
-                    <p class="faq__reponse">
-                        Absolument ! Nous encourageons les visiteurs à venir costumés, et un concours de cosplay sera
-                        organisé chaque jour.
-                    </p>
+                    <details>
+                        <summary class="faq__question">Peut-on venir déguisé ?</summary>
+                        <p class="faq__reponse">
+                            Absolument ! Nous encourageons les visiteurs à venir costumés, et un concours de cosplay
+                            sera
+                            organisé chaque jour.
+                        </p>
+                    </details>
                 </li>
                 <li class="faq__item">
-                    <a class="chevron__link" href="">
-                        <img class="chevron__btn" src="/assets/icones/chevron.svg" alt="" aria-expanded="false"
-                            aria-label="Lire la réponse">
-                    </a>
-                    <p class="faq__question">Puis-je filmer pendant les
-                        projections ?</p>
-                    <p class="faq__reponse">
-                        Pour respecter les droits d'auteur, il est interdit de filmer ou de prendre des photos pendant
-                        les projections.
-                        Cependant, vous êtes libre de capturer des moments avant et après les films.
-                    </p>
-
+                    <details>
+                        <summary class="faq__question">Puis-je filmer pendant les projections ?</summary>
+                        <p class="faq__reponse">
+                            Pour respecter les droits d'auteur, il est interdit de filmer ou de prendre des photos
+                            pendant les
+                            projections. Cependant, vous êtes libre de capturer des moments avant et après les films.
+                        </p>
+                    </details>
                 </li>
                 <li class="faq__item">
-                    <a class="chevron__link" href="">
-                        <img class="chevron__btn" src="/assets/icones/chevron.svg" alt="" aria-expanded="false"
-                            aria-label="Lire la réponse">
-                    </a>
-                    <p class="faq__question">Quels sont les moyens de
-                        paiements sur place ?</p>
-                    <p class="faq__reponse">
-                        Nous acceptons les paiements en espèces, par carte bancaire, et via les solutions sans contact.
-                    </p>
-
+                    <details>
+                        <summary class="faq__question">Quels sont les moyens de paiements sur place ?</summary>
+                        <p class="faq__reponse">
+                            Nous acceptons les paiements en espèces, par carte bancaire, et via les solutions sans
+                            contact.
+                        </p>
+                    </details>
                 </li>
                 <li class="faq__item">
-                    <a class="chevron__link" href="">
-                        <img class="chevron__btn" src="/assets/icones/chevron.svg" alt="" aria-expanded="false"
-                            aria-label="Lire la réponse">
-                    </a>
-                    <p class="faq__question">Y a t-il un âge minimum pour entrer
-                        dans le festival ?</p>
-                    <p class="faq__reponse">
-                        Le festival est destiné aux personnes de 12 ans et plus. Certains films peuvent être
-                        déconseillés aux moins de 18 ans, il est important de se munir de sa carte d'identité !
-                        Toutes les informations seront indiquées dans le programme.
-                    </p>
-
+                    <details>
+                        <summary class="faq__question">Y a t-il un âge minimum pour entrer dans le festival ?</summary>
+                        <p class="faq__reponse">
+                            Le festival est destiné aux personnes de 12 ans et plus. Certains films peuvent être
+                            déconseillés
+                            aux moins de 18 ans, il est important de se munir de sa carte d'identité ! Toutes les
+                            informations
+                            seront indiquées dans le programme.
+                        </p>
+                    </details>
                 </li>
             </ul>
         </section>

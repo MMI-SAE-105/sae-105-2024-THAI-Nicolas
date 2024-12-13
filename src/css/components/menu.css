@@ -7,6 +7,10 @@
     background-size: cover;
     color: var(--white);
     bottom: 0;
+    transform: translate(-100%);
+    transition: right 0.3s ease;
+    /* Animation pour le "slide" */
+    z-index: 900;
 }
 
 .menu ul {
@@ -19,12 +23,14 @@
     justify-content: center;
     align-items: start;
     height: 100%;
+    z-index: 1;
 }
 
 .menu__item {
-    font-family: var(--font-family-title);
-    font-size: 32px;
-    margin-left: 60px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 50px;
     transition: padding-left 0.2s ease-in-out;
 }
 
@@ -43,12 +49,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .menu[aria-hidden="false"] {
     transform: translateX(0);
     visibility: visible;
-    ;
+    transition: transform 0.3s ease, visibility 0s;
 }
 
 body.noscroll {

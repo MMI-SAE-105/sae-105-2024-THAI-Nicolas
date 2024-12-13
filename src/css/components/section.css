@@ -40,10 +40,10 @@
 
 .intro-place__line {
     position: absolute;
-    top: 920px;
+    top: 1000px;
     left: 72px;
     width: 2px;
-    height: 292px;
+    height: 210px;
     background-color: black;
     z-index: 1;
 }
