@@ -28,32 +28,31 @@
 
 .intro-place__button {
     background-color: var(--orange);
-    width: 200px;
-    height: 15px;
+    width: 175px;
+    height: 10px;
     border-radius: 36px;
-    font-size: 14px;
-    margin-left: 50px;
+    font-size: 12px;
+    margin-left: 130px;
     margin-top: 30px;
 }
 
 .intro-reservation__button {
-    padding: 12px 14px;
+    padding: 10px 12px;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .programme-btn {
-    width: 180px;
-    height: 40px;
+    width: 170px;
+    height: 35px;
     background-color: var(--white);
     color: var(--black);
     padding: 12px 20px;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     display: flex;
     justify-content: space-around;
-    ;
 }
 
 .formule-home__button {

@@ -5,7 +5,7 @@
 
 .categorie__restriction {
     font-family: var(--font-family-title);
-    font-size: 32px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -21,20 +21,20 @@
 }
 
 .carrousel__img-film {
-    width: 120px;
+    width: 90px;
 }
 
 .prev-squelette {
     position: relative;
     top: 0;
-    left: 50px;
-    width: 80px;
+    left: 35px;
+    width: 60px;
 }
 
 .next-squelette {
     position: relative;
     top: 0;
-    left: 275px;
+    left: 225px;
     rotate: 180deg;
-    width: 80px;
+    width: 60px;
 }

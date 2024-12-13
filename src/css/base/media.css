@@ -12,16 +12,16 @@
 }
 
 .intro-place__spider {
-    width: 200px;
+    width: 160px;
     position: absolute;
     left: 0;
     top: 1150px;
 }
 
 .intro-reservation__murderer {
-    width: 200px;
+    width: 150px;
     position: absolute;
     right: 0;
-    top: 1500px;
-    margin-right: 30px;
+    top: 1450px;
+    margin-right: 10px;
 }
